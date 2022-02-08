@@ -1,0 +1,50 @@
+#two{
+    height: 200px;
+  
+}
+table{
+    border: black solid 2px;;
+}
+
+#a1{
+    background: orange ;
+}
+#a1:visited{
+    background: green ;
+}
+#a1:hover{
+    background: red ;
+}
+
+
+
+.blocklevel{
+    border: 2px goldenrod solid ;
+    border-radius: 5%;;
+    height: 25vh;
+    width: 25vw;
+    margin: 10px;
+    
+}
+
+.inlinelevel{
+    border: 2px rgb(63, 211, 63) solid;
+    height: 25vh;
+    width: 25vw;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+.inlinelevel1{
+    border: 2px rgb(50, 102, 50) solid;
+    height: 25vh;
+    width: 25vw;
+    padding: 40px;
+    margin: 10px;
+}
+
+.parentclass{
+    background: blue;
+    height: 20px;
+    width: 20px;
+}

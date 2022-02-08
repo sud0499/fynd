@@ -1,0 +1,31 @@
+#parent{
+    height: 50vh;
+    background: lightgray;
+    width: 100vw;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+
+#one {
+    background: lightpink;
+    /* height: 50px;
+    width: 50px; */
+    flex-grow:1;
+   
+
+
+}
+#two{
+    background: cyan;
+    height: 50px;
+    width: 50px;
+    /* flex-grow:1; */
+}
+ #three{
+    background: lightgreen;
+    height: 50px;
+    width: 50px;
+    /* flex-grow:1; */
+}
+
