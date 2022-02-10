@@ -1,0 +1,80 @@
+/* NavBar CSS */
+
+#navbar{
+    display: flex;
+    background: rgb(32, 29, 29);
+    color: white;
+}
+#image{
+    border-radius: 40%;
+    height: 40px;
+
+}
+#deadspace{
+    flex-grow: 1;
+}
+
+#sec{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+.sec{
+    flex-grow: 1;
+}
+
+#btn{
+    padding: 10px;
+    border-radius: 15%;
+    color: black;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hero Page CSS */
+.parent{
+    border: 3px solid rgb(32, 29, 29);
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black;
+}
+
+#text{
+    background: #0096FF;;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    padding: 50px; 
+}
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+#btns{
+    color:white;
+    border-radius: 10%;
+    padding: 15px;
+    background: rgb(226, 50, 79);
+    border: black 1px solid;
+}
+#images{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 30px;
+}
