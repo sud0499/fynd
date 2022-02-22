@@ -116,11 +116,11 @@
 //   console.log(final_result());
   
 // Switch Case Closure
-let iter=0
+let i=0
 function sum(){
   return function s2(){
-    iter++;
-    return iter;
+    i++;
+    return i;
   }
 }
 
