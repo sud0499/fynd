@@ -115,57 +115,55 @@
 //   var final_result = catch_child(5);
 //   console.log(final_result());
   
+// Switch Case Closure
+let iter=0
+function sum(){
+  return function s2(){
+    iter++;
+    return iter;
+  }
+}
 
-// let iter=0
-// function sum(){
-//   return function s2(){
-//     iter++;
-//     return iter;
-//   }
-// }
+function day(d){
+  switch(d){
+    case 0:
+      console.log("sunday");
+      break;
+    case 1:
+      console.log("monday");
+      break;
+    case 2:
+      console.log("tuesday");
+      break;
+    case 3:
+      console.log("wednesday");
+      break;
+    case 4:
+      console.log("thursday");
+      break;
+    case 5:
+      console.log("friday");
+      break;
+    case 6:
+      console.log("saturday");
+      break;
+    default:
+      x=sum();
+      y=x();
+      if(y==1){
+        console.log("You have not given any value")
+      }
+      else{
+        console.log("still You have not given any value")
+      }
+      break;
+  }
+}
 
-// function day(dayy){
-
-
-//   switch(dayy){
-//     case 0:
-//       console.log("sunday");
-//       break;
-//     case 1:
-//       console.log("monday");
-//       break;
-//     case 2:
-//       console.log("tuesday");
-//       break;
-//     case 3:
-//       console.log("wednesday");
-//       break;
-//     case 4:
-//       console.log("thursday");
-//       break;
-//     case 5:
-//       console.log("friday");
-//       break;
-//     case 6:
-//       console.log("saturday");
-//       break;
-//     default:
-//       x=sum();
-//       y=x();
-//       if(y==1){
-//         console.log("You have not given any value")
-//       }
-//       else{
-//         console.log("still You have not given any value")
-//       }
-//       break;
-//   }
-// }
-
-// // day(0);
-// // day(6);
-// day();
-// day();
+// day(0);
+// day(6);
+day();
+day();
 
 
 
