@@ -160,25 +160,25 @@ function day(d){
   }
 }
 
-// day(0);
-// day(6);
+day(0);
+day(6);
 day();
 day();
 
 
 
 let iter=0
-function sum(){
-  return function s2(){
+function summ(){
+  return function summ2(){
     iter++;
     return iter;
   }
 }
 
 function parent(){
-  x=sum();
-  y=x();
-  console.log("you have called "+y+" times.")
+  m=summ();
+  n=m();
+  console.log("you have called "+n+" times.")
 }
 
 parent();
