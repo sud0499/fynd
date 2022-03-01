@@ -34,172 +34,6 @@
 // elementExample.innerText = "Working on Inner text";
 // firstExample.appendChild(elementExample); //appended the para tag on div element  first Example
 
-// // ARRAY --------------------------------------------------------------------------------------------------------------------------
-
-// let thisIsArray = ["Sarthak", "Kanak", "Shreshtha", "Nandini"];
-
-// thisIsArray.length; //returns the number of elements in an array
-
-// console.log(thisIsArray.length);
-
-// console.log(thisIsArray.reverse());
-
-// let array2 = ["dazzler", "India", "Dog", "Toy"];
-
-// console.log(thisIsArray.concat(array2));
-
-// let iterable = thisIsArray.entries();
-
-// console.log(iterable.next()); //returns an object as o/p with an array and a boolean value 
-// // (if value of boolean is false that means the next value in array still exist and true if no value is further present in array )
-
-// // console.log(iterable.next().value);
-// // console.log(iterable.next().done);
-
-// // console.log(iterable.next().value);
-// // console.log(iterable.next().done);
-
-// for (let item of iterable) {
-//   console.log(item);
-// }
-
-// console.log(...thisIsArray);
-
-// // Slice= takes upto 2 numerical parameters and returns an array that contains elements at indices specified by those 2 parameters
-
-// console.log(array2.slice(1));
-// // console.log(array2.slice(1, 3));  //first parameter is inclusive and second parameter is excluded
-// // console.log(array2.slice(-1));
-// // console.log(array2.slice(-2));
-// // console.log(array2.slice(-1, 3));
-// // console.log(array2.slice(-1, -3));
-// // console.log(array2.slice(1, -3));
-
-// const callbackFunction = (item) => item === "Sarthak"; //will only return a true it the string(Sarthak) matches with all the element of array otherwise it return false even if one element or no elementmatches
-
-// let result = thisIsArray.every(callbackFunction);
-
-// console.log(result);
-
-// // SPLICE---------------
-
-// let newVal = console.log(array2.splice(3, 1, "Varun", "Nandini"));
-// console.log(array2.length);
-// console.log(...array2);
-
-// //MAP------------------------------------------------------------------------------------------------------------------------------------------
-
-// /*execute a callback fn on every element of an array and returns an array  */
-
-// let array3 = [1, 2, 3, 4, 5, 6];
-
-// const varName2 = (item2) => {
-//   console.log(item2);
-//   return item2;
-// };
-
-// let result1 = array3.map(varName2);
-
-// console.log(result1);
-
-// // function callback2(item) {
-// //   console.log(item);
-// //   return "This is running";
-// // }
-
-// // const varName = (arguments) => {
-// //   console.log("hello");
-// //   return 1;
-// // };
-
-// //FILTER--------------------------------------------------------------------------------------------------------------------
-
-// /*filter runs a callback on every element of the array and returns an array of elements that return true for callback */
-
-// function callingbackFunction(item) {
-//   return item === 4;
-// }
-
-// let result2 = array3.filter(callingbackFunction);
-// console.log(result2);
-
-// array4 = [11, 7, 8, 1, 12];
-
-// let result3 = array4.filter(
-//   (item) => item > 5
-// ); /* can be written as let result3 = array4.filter(item => item > 5); */
-// console.log(result3);
-
-// //EVERY -----------------------------------------------------------------------------------------------------------------------------------------
-// /* The every() method tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value. */
-
-// const isBelowThreshold = (currentValue) => currentValue < 40;
-
-// const array5 = [1, 30, 39, 29, 10, 13];
-
-// console.log(array5.every(isBelowThreshold)); // expected output: true
-
-// //SORT ----------------------------------------------------------------------------------------------------------------------------------------------------------
-
-// const array6 = [16, 11, 14, 13, 12, 15, 10];
-
-// function calbackFunction2(a, b) {
-//   //a and b are first and second element of array and hume value humse positive ya negative ya zero lani hai for sorting to work
-//   //1.less than 0 = descending
-//   //2.equal to than 0 = no change
-//   //3.greater than 0 = ascending
-//   return a - b;
-// }
-
-// array6.sort(calbackFunction2);
-// console.log(array6);
-
-// array7 = [11, 7, 8, 1, 2, 4, 12];
-
-// let result4 = array7.filter((item) => item > 5);
-// console.log(result4.sort((a, b) => b - a));
-
-// console.log(array7.filter((item) => item > 5).sort((a, b) => a - b));
-
-// // REDUCE -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-// /*reduces an array into a single value based on the (2= accumulator,item) parameters you pass in the callback function and an optional starting value for  */
-
-// array8 = [70, 65, 55, 48, 76, 78, 80];
-
-// // array8.reduce((accumulator, item) => {
-// //   return accumulator + item, 0;
-// // });
-
-// console.log(array8.reduce((accumulator, item) => accumulator + item, 0)); 
-//         //here 0 is an optional value and starting value of accumulator = 0 and item value will be 70, 
-//         //if we do not mention this optional value the accumulator takes value as 70 and item as 65
-
-// //OBJECTS -----------------------------------------------------------------------------------------------------
-
-// let testObject = {
-//   studentName: "CR7",
-//   age: 37,
-//   favoriteManager: "Sir Ferguson",
-// };
-
-// console.log(testObject.studentName);
-// console.log(testObject.favoriteManager);
-
-// testObj2 = {
-//   address: {
-//     streetName: "Ashokvan",
-//     city: "Mumbai",
-//   },
-
-//   students: ["stud1", "stud2", "stud3"],
-// };
-
-// console.log(testObj2.students);
-// console.log(testObj2.address.streetName);
-
-// if (testObj2.address.country == undefined || testObj2.address.country == null)  
-//console.log(This is working);
 
 // let arraytoTest = [
 //     {
@@ -243,7 +77,7 @@
 // arr1.sort((a, b) => (a.randomNumber - b.randomNumber));
 // console.log(arr1);
 
-
+//
 
 let usersArray = [
   {
@@ -293,8 +127,7 @@ let usersArray = [
   },
 ];
 
-
-
+//write a function that gives all user who have taken aleave between two given dates
 
 let d=new Date();
 
@@ -310,6 +143,7 @@ function findDates(x=new Date(d.getFullYear(),d.getMonth(),1), y=new Date(d.getF
   )
 }
 console.log(findDates("2022-02-11","2022-02-18"));
+
 
 
 
