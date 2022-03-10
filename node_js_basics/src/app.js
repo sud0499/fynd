@@ -4,7 +4,7 @@ const userRouter = require("../api/routes/user.js");
 const morgan = require("morgan");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
-const dbUrl ="mongodb+srv://sudh0499:Sudhanshu123@cluster0.4l1dr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const dbUrl ="mongodb+srv://sudh0499:<password>@cluster0.4l1dr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 
 mongoose.connect(dbUrl,{
